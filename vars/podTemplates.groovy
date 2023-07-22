@@ -1,5 +1,3 @@
-@Library('jenkinsLibrary')_
-
 package utils
 
 public void dockerTemplate(body) {
