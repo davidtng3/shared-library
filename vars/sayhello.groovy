@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 
-def call(String name = 'human') {
-  echo "Hello, ${name}."
+def call(String text = 'Default Text.') {
+  echo "From Library Function: ${text}."
 }
 
 
