@@ -12,7 +12,7 @@ public void dockerTemplate(body) {
 
 public void mavenTemplate(body) {
   podTemplate(
-    containers: [containerTemplate(name: 'maven', image: 'maven', command: 'sleep', args: '99d')])
+    //containers: [containerTemplate(name: 'maven', image: 'maven', command: 'sleep', args: '99d')])
     //containers: [containerTemplate(name: 'maven', image: 'maven', command: 'sleep', args: '99d')],
     //volumes: [secretVolume(secretName: 'maven-settings', mountPath: '/root/.m2'),
     //          persistentVolumeClaim(claimName: 'maven-local-repo', mountPath: '/root/.m2repo')]) 
