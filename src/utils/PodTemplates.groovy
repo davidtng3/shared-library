@@ -2,7 +2,7 @@ package com.utils
 
 public void dockerTemplate(body) {
   podTemplate(
-    containers: [containerTemplate(name: 'docker', image: 'docker', command: 'sleep', args: '99d')] {
+    containers: [containerTemplate(name: 'docker', image: 'docker', command: 'sleep', args: '99d')]) {
       body.call()
     }
 }
